@@ -1,4 +1,4 @@
-<html lang="en">
+<!-- <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,5 +7,70 @@
 <body>
     <h1>Jarod Beach</h1>
     <p>banana</p>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>My Work</h1>
+  <p>A selection of projects I’ve crafted</p>
+</header>
+
+<!-- Tabs -->
+<div class="tabs">
+  <button class="tab active" data-tab="web">Web</button>
+  <button class="tab" data-tab="video">Video</button>
+  <button class="tab" data-tab="design">Design</button>
+</div>
+
+<!-- Tab Content -->
+<div class="tab-content active" id="web">
+  <div class="project-card">
+    <img src="images/project1.jpg" alt="Project Screenshot">
+    <div class="project-info">
+      <h2>Portfolio Website</h2>
+      <p>
+        Designed and developed a responsive portfolio using HTML, CSS, and JavaScript.
+        Focused on performance, accessibility, and clean UI.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="tab-content" id="video">
+  <div class="project-card">
+    <video controls>
+      <source src="videos/demo.mp4" type="video/mp4">
+    </video>
+    <div class="project-info">
+      <h2>Showreel</h2>
+      <p>
+        Edited and animated a short showreel highlighting motion graphics and transitions.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="tab-content" id="design">
+  <div class="project-card">
+    <img src="images/design.jpg" alt="Design Work">
+    <div class="project-info">
+      <h2>Brand Concept</h2>
+      <p>
+        Created logo, color palette, and typography system for a fictional brand.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

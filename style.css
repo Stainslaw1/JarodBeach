@@ -1,0 +1,64 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0f0f12;
+  color: #fff;
+  margin: 0;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  background: none;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 0.6rem 1.4rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.tab.active {
+  background: #fff;
+  color: #000;
+}
+
+.tab-content {
+  display: none;
+  max-width: 900px;
+  margin: auto;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.project-card {
+  background: #1a1a1f;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.project-card img,
+.project-card video {
+  width: 100%;
+  display: block;
+}
+
+.project-info {
+  padding: 1.2rem;
+}
+
+.project-info h2 {
+  margin: 0 0 0.5rem;
+}
